@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Learn Code</string>
+    <string name="learn_code">Learn Code</string>
+    <string name="todologin">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="login">Log In</string>
+    <string name="already_account">Already Have Account?</string>
+    <string name="join">Join Us</string>
+</resources>
