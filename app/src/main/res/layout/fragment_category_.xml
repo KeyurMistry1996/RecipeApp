@@ -4,22 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Category_Fragmen"
-    android:background="@color/green"
     android:id="@+id/two"
+    android:layout_marginTop="70dp"
     >
 
     <!-- TODO: Update blank fragment layout -->
     <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="2"
         android:id="@+id/gridview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:stretchMode="columnWidth"
         android:gravity="center"
-        android:columnWidth="100dp"
-        android:numColumns="auto_fit"
-        android:verticalSpacing="24dp"
-        android:horizontalSpacing="10dp"
-        android:stretchMode="spacingWidthUniform"
-        ></GridView>
 
+        >
 
+    </GridView>
 </FrameLayout>
