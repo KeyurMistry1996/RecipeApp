@@ -1,6 +1,7 @@
 package com.example.learncode;
 
 
+
 class User {
 
     private static String username;
@@ -14,6 +15,7 @@ class User {
         this.email = email;
         this.phone = phone;
     }
+
 
     public static String getUsername() {
         return username;

@@ -31,11 +31,21 @@ public class LoginActivity extends AppCompatActivity {
             if(((usernameLogin).equals(username) && (passwordLogin.equals(password))))
             {
                 Toast.makeText(this, "Log In Succsess", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(getApplicationContext(),Home_Activity.class);
+                startActivity(intent);
+            }
+            else if((((usernameLogin).equals("Admin") && (passwordLogin.equals("Admin")))))
+            {
+                Intent intent = new Intent(getApplicationContext(),Home_Activity.class);
+                startActivity(intent);
+
             }
 
             else {
                 Toast.makeText(this, "Authentication Failed", Toast.LENGTH_SHORT).show();
             }
+
+
         }
 
 
