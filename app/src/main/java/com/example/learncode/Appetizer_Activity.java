@@ -1,69 +1,42 @@
 package com.example.learncode;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
-public class Home_Fragment extends Fragment implements MyAdapter.onClickInterfce {
+public class Appetizer_Activity extends AppCompatActivity {
     ArrayList<String> name;
     ArrayList<String> description;
     ArrayList<Integer> images;
     ArrayList<String> ingredients;
     ArrayList<String> recipes;
 
-    public Home_Fragment() {
-        // Required empty public constructor
-
-
-    }
-
-
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-         name = new ArrayList<>();
-         description = new ArrayList<>();
-         images = new ArrayList<>();
-         ingredients = new ArrayList<>();
-         recipes = new ArrayList<>();
-         addData();
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_appetizer_);
 
+        name = new ArrayList<>();
+        description = new ArrayList<>();
+        images = new ArrayList<>();
+        ingredients = new ArrayList<>();
+        recipes = new ArrayList<>();
+        addData();
 
-        View view = inflater.inflate(R.layout.fragment_home_, container, false);
+        ListView listView =findViewById(R.id.apetizer_list);
+        listView.setAdapter(new MyAdapter2(this,name,description,images));
 
-        MyAdapter adapter = new MyAdapter(name,description,images,ingredients,recipes,this);
-        RecyclerView recyclerView =  view.findViewById(R.id.recycler_View);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getContext(),LinearLayoutManager.HORIZONTAL,false));
-        recyclerView.setAdapter(adapter);
-
-
-        ListView listView =view.findViewById(R.id.list_View);
-        MyListAdapater myListAdapater = new MyListAdapater(this,name,description,images);
-        listView.setAdapter( myListAdapater);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(getContext(),RecipeInfo.class);
+                Intent intent = new Intent(getApplicationContext(),RecipeInfo.class);
                 intent.putExtra("Title",name.get(position));
                 intent.putExtra("Description",description.get(position));
                 intent.putExtra("Ingrediants",ingredients.get(position));
@@ -73,7 +46,7 @@ public class Home_Fragment extends Fragment implements MyAdapter.onClickInterfce
             }
         });
 
-        return view;
+
     }
 
     private void addData() {
@@ -205,19 +178,4 @@ public class Home_Fragment extends Fragment implements MyAdapter.onClickInterfce
                 "Serve pozole with radishes, cabbage, and cilantro. ");
 
     }
-
-    @Override
-    public void onClcick(int position) {
-        Intent intent = new Intent(this.getContext(),RecipeInfo.class);
-        intent.putExtra("Title",name.get(position));
-        intent.putExtra("Description",description.get(position));
-        intent.putExtra("Ingrediants",ingredients.get(position));
-        intent.putExtra("Recipe",recipes.get(position));
-        intent.putExtra("Image",images.get(position));
-        startActivity(intent);
-
-    }
-
-
-
 }

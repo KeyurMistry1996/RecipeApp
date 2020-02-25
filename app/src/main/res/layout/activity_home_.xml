@@ -19,44 +19,44 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:padding="10dp"
-        >
+        app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:alpha="1"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/home_icon"
+                android:backgroundTint="@color/green"
 
-        <Button
-            android:id="@+id/btn_home"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/home_icon"
-            android:layout_marginLeft="10dp"
-            android:backgroundTint="@color/green"
-            android:alpha="1"
 
-            />
+                />
 
-        <Button
-            android:id="@+id/btn_course_category"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="170dp"
-            android:background="@drawable/category"
-            android:alpha="0.5"
-            android:backgroundTint="@color/green"
-            />
+            <Button
+                android:id="@+id/btn_course_category"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="100dp"
+                android:alpha="0.5"
+                android:background="@drawable/category"
+                android:backgroundTint="@color/green" />
 
-        <Button
-            android:id="@+id/btn_my_recipe"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:alpha="0.5"
-            android:background="@drawable/my_recipe"
-            android:layout_marginLeft="320dp"
-            android:backgroundTint="@color/green"
+        </LinearLayout>
 
-             />
+
+
+
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
