@@ -15,10 +15,10 @@ import java.util.ArrayList;
 class GridAdapte extends BaseAdapter {
     Category_Fragmen context;
     String[] arrayListTitle;
-    int[] arrayListImages;
+    ArrayList<Integer> arrayListImages;
 
 
-    public GridAdapte(Category_Fragmen category_fragmen, String[] arrayListITitle, int[] arrayListImage) {
+    public GridAdapte(Category_Fragmen category_fragmen, String[] arrayListITitle, ArrayList<Integer> arrayListImage) {
 
        this.context = category_fragmen;
        this.arrayListTitle = arrayListITitle;
@@ -27,7 +27,7 @@ class GridAdapte extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return arrayListImages.length;
+        return arrayListImages.size();
     }
 
     @Override
@@ -41,15 +41,16 @@ class GridAdapte extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, ViewGroup parent)  {
 
         convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_model,parent,false);
         ImageView imageView = convertView.findViewById(R.id.gridImage);
         TextView textView = convertView.findViewById(R.id.gridTitle);
-        imageView.setImageResource(arrayListImages[position]);
+        imageView.setImageResource(arrayListImages.get(position));
         textView.setText(arrayListTitle[position]);
         return convertView;
     }
+
 
 
 }

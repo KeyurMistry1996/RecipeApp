@@ -42,14 +42,13 @@
                 android:layout_marginTop="10dp">
 
             </TextView>
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recycler_View1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                >
 
-            </androidx.recyclerview.widget.RecyclerView>
+            <ListView
+                android:id="@+id/list_View"
+                android:layout_width="match_parent"
+                android:layout_height="640dp">
+
+            </ListView>
 
         </LinearLayout>
     </ScrollView>
