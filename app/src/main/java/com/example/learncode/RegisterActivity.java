@@ -3,6 +3,7 @@ package com.example.learncode;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -36,12 +37,19 @@ public class RegisterActivity extends AppCompatActivity {
         String emailString = email.getText().toString();
         String phoneString = phone.getText().toString();
 
+
         if(usernameString.equals("") || passwordString.equals("") || emailString.equals("") || phoneString.equals("")){
 
             Toast.makeText(this, "Please Fill Required Details", Toast.LENGTH_SHORT).show();
         }
         else {
-            User user = new User(usernameString,passwordString,emailString,phoneString);
+            SharedPreferences preferences = getSharedPreferences("MyPreference",MODE_PRIVATE);
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putString("Username",usernameString);
+            editor.putString("Password",passwordString);
+            editor.putString("Email",emailString);
+            editor.putString("Phone",phoneString);
+            editor.commit();
 
             Toast.makeText(this, "Join Successfully", Toast.LENGTH_LONG).show();
 

@@ -4,9 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -30,8 +35,8 @@ public class Appetizer_Activity extends AppCompatActivity {
         addData();
 
         ListView listView =findViewById(R.id.apetizer_list);
-        listView.setAdapter(new MyAdapter2(this,name,description,images));
-
+        MyAdapter2 myListAdapater = new MyAdapter2(getApplicationContext(),name,description,images);
+        listView.setAdapter( myListAdapater);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -176,6 +181,32 @@ public class Appetizer_Activity extends AppCompatActivity {
                 "Add chile puree and hominy to pot with pork. Continue to simmer, covered, until pork is very tender," +
                 " 1 hour and 30 minutes more. \n" +
                 "Serve pozole with radishes, cabbage, and cilantro. ");
+
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+            case R.id.my_profile:
+                Intent intent = new Intent(getApplicationContext(), MyProfile_Activity.class);
+                startActivity(intent);
+                return true;
+            case R.id.about_us:
+                Toast.makeText(getApplicationContext(), "Item 2 Selected", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.contect_us:
+                Toast.makeText(getApplicationContext(), "Item 3 Selected", Toast.LENGTH_LONG).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+
 
     }
 }

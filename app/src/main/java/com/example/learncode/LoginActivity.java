@@ -3,6 +3,7 @@ package com.example.learncode;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -25,8 +26,13 @@ public class LoginActivity extends AppCompatActivity {
         String usernameLogin = username.getText().toString();
         String passwordLogin = password.getText().toString();
 
-        String username = String.valueOf(User.getUsername());
-        String password = String.valueOf(User.getPassword());
+        SharedPreferences preferences = getSharedPreferences("MyPreference",MODE_PRIVATE);
+
+        String username = preferences.getString("Username",null);
+        Log.i("Username:",username);
+
+        String password = preferences.getString("Password",null);
+        Log.i("Password:",password);
 
             if(((usernameLogin).equals(username) && (passwordLogin.equals(password))))
             {
