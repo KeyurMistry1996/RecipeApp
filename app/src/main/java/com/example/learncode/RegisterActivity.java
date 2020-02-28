@@ -53,7 +53,7 @@ public class RegisterActivity extends AppCompatActivity {
 
             Toast.makeText(this, "Join Successfully", Toast.LENGTH_LONG).show();
 
-            Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+            Intent intent = new Intent(getApplicationContext(),Home_Activity.class);
             startActivity(intent);
         }
 
