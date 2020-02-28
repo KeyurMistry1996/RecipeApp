@@ -7,33 +7,20 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-public class RecipeInfo extends AppCompatActivity {
-    ImageView imageView;
-    TextView title,description,recipes,ingrediants;
+public class Contect_Us extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recipe_info);
+        setContentView(R.layout.activity_contect__us);
 
-        imageView = findViewById(R.id.recipeImage);
-        title = findViewById(R.id.recipe_Title);
-        description = findViewById(R.id.recipe_description);
-        recipes = findViewById(R.id.recipe);
-        ingrediants = findViewById(R.id.recipe_Ingrediant);
-
-        Intent intent = getIntent();
-
-        title.setText( intent.getStringExtra("Title"));
-        description.setText(intent.getStringExtra("Description"));
-        recipes.setText(intent.getStringExtra("Recipe"));
-        ingrediants.setText(intent.getStringExtra("Ingrediants"));
-        imageView.setImageResource(intent.getIntExtra("Image",0));
-
-
+        TextView textView = findViewById(R.id.textViewContect);
+        textView.setText("Hi!\nWea are ready to help you.\n" +
+                "Our Service hours is\n" +
+                "Monday-Friday(9am-5pm)\n" +
+                "Saturday-Sunday(!2pm-4pm)");
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {

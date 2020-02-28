@@ -62,27 +62,27 @@ public class Category_Fragmen extends Fragment {
                     startActivity(intent);
                 }
                 else if(idSelected == R.drawable.breakfast_image) {
-                    Intent intent = new Intent(parent.getContext(), RecipeInfo.class);
+                    Intent intent = new Intent(parent.getContext(), Breakfast_Activity.class);
                     startActivity(intent);
 
                 }
                 else if(idSelected == R.drawable.side_dishes_image) {
-                    Intent intent = new Intent(parent.getContext(), RecipeInfo.class);
+                    Intent intent = new Intent(parent.getContext(), SidrDish.class);
                     startActivity(intent);
 
                 }
                 else if(idSelected == R.drawable.dessert_image) {
-                    Intent intent = new Intent(parent.getContext(), RecipeInfo.class);
+                    Intent intent = new Intent(parent.getContext(), Dessert.class);
                     startActivity(intent);
 
                 }
                 else if(idSelected == R.drawable.dinner_image) {
-                    Intent intent = new Intent(parent.getContext(), RecipeInfo.class);
+                    Intent intent = new Intent(parent.getContext(), Dinner.class);
                     startActivity(intent);
 
                 }
                 else if(idSelected == R.drawable.lunch_image) {
-                    Intent intent = new Intent(parent.getContext(), RecipeInfo.class);
+                    Intent intent = new Intent(parent.getContext(), lunch.class);
                     startActivity(intent);
 
                 }

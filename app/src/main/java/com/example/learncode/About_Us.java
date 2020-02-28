@@ -41,7 +41,8 @@ public class About_Us extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.contect_us:
-                return true;
+                intent = new Intent(getApplicationContext(),Contect_Us.class);
+                startActivity(intent);
             default:
                 return super.onOptionsItemSelected(item);
         }

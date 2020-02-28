@@ -68,17 +68,19 @@ public class Home_Activity extends AppCompatActivity {
 
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+        Intent intent;
         switch (id) {
             case R.id.my_profile:
-                Intent intent = new Intent(getApplicationContext(), MyProfile_Activity.class);
+                intent = new Intent(getApplicationContext(), MyProfile_Activity.class);
                 startActivity(intent);
                 return true;
             case R.id.about_us:
-                Toast.makeText(getApplicationContext(), "Item 2 Selected", Toast.LENGTH_LONG).show();
+                intent = new Intent(getApplicationContext(),About_Us.class);
+                startActivity(intent);
                 return true;
             case R.id.contect_us:
-                Toast.makeText(getApplicationContext(), "Item 3 Selected", Toast.LENGTH_LONG).show();
-                return true;
+                intent = new Intent(getApplicationContext(),Contect_Us.class);
+                startActivity(intent);
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -86,5 +88,8 @@ public class Home_Activity extends AppCompatActivity {
 
     }
 
+
     }
+
+
 
