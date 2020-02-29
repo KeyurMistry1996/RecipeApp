@@ -51,7 +51,7 @@ public class RegisterActivity extends AppCompatActivity {
             editor.putString("Phone",phoneString);
             editor.commit();
 
-            Toast.makeText(this, "Join Successfully", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Welcome "+usernameString, Toast.LENGTH_LONG).show();
 
             Intent intent = new Intent(getApplicationContext(),Home_Activity.class);
             startActivity(intent);
