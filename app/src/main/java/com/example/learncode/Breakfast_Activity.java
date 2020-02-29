@@ -74,108 +74,80 @@ public class Breakfast_Activity extends AppCompatActivity {
                 "Pipe yolk mixture back into whites and top with chives to serve. ");
 
 
-        name.add("Kit Kat Egg Rolls");
-        description.add("Fried candy bars have become a state fair staple. Kit Kat egg rolls makes the candy bar even crispier and with extra chocolate they" +
-                " become even better! Kit Kat lovers will go crazy for this simple treat.");
-        images.add(R.drawable.kit_kat_egg_rolls);
-        ingredients.add("12 wonton wrappers\n" +
-                "1/2 c. melted chocolate\n" +
-                "12 mini Kit Kats\n" +
-                "Vegetable oil, for frying\n" +
-                "Powdered sugar, for dusting\n" +
-                "Caramel, warmed, for dipping");
-        recipes.add("Place wonton wrappers on a clean surface in a diamond shape. Spread a thin layer of melted chocolate in middle of wrapper and place a Kit Kat on top. " +
-                "Fold bottom point over Kit Kat, then fold corners in. Wet top point with a little water then roll to seal. \n" +
-                "In a medium skillet over medium heat, heat enough oil to come ½” up the side of pan. Working in batches, add Kit Kats to oil and fry until golden, 1 minute per side." +
-                " Remove from oil and place on a paper towel lined plate. Repeat with remaining Kit Kats. \n" +
-                "Dust with powdered sugar and serve with warmed caramel. ");
+        name.add("Roman-Style Artichokes");
+        description.add("This Italian-inspired dish pairs perfectly with risotto or pasta dishes.");
+        images.add(R.drawable.romanstyleartichokes);
+        ingredients.add("2 whole artichokes\n" +
+                "1/2 cup dry white wine (regular or nonalcoholic), fat-free, low-sodium chicken broth, or water\n" +
+                "1/2 cup water\n" +
+                "2 tablespoons chopped, fresh Italian (flat-leaf) parsley\n" +
+                "2 medium minced garlic cloves\n" +
+                "1/2 teaspoon dried oregano (crumbled)\n" +
+                "1/4 teaspoon salt\n" +
+                "1 tablespoon olive oil (extra virgin preferred)");
+        recipes.add("Working with one artichoke at a time, peel off and discard the tough outer leaves. Trim 1 inch from the top. Discard. Trim off any fibrous parts. Discard. Halve each artichoke lengthwise. Using a spoon, scrape out the fuzzy choke portion. Discard.\n" +
+                "Pour the wine and water into the pressure cooker. Place the steaming rack in the cooker. Arrange the artichoke halves with the cut side up on the rack.\n" +
+                "In a small bowl, stir together the parsley, garlic, oregano, and salt. Sprinkle over the artichokes. Secure the lid. Cook on high pressure for 10 minutes. Quickly release the pressure.\n" +
+                "Transfer the artichokes to a platter. Drizzle with the oil. ");
 
-        name.add("Best-Ever Pozole");
-        description.add("Don't let the time commitment scare you. It's as easy as bringing water to a boil and the longer you let it simmer, the better it will be. This soup is meant to be a little spicy," +
-                " but adjust the heat to your liking by adding more or less of the chile puree. The cabbage will help cool things off a bit! ");
-        images.add(R.drawable.best_ever_pozole);
-        ingredients.add("3 lb. pork shoulder, cut into 2\" pieces\n" +
-                "Kosher salt \n" +
-                "Freshly ground black pepper\n" +
-                "1 large yellow onion, quartered\n" +
-                "3 cloves garlic, sliced\n" +
-                "1 tsp. whole cloves\n" +
-                "1 tsp. cumin seeds\n" +
-                "1 bay leaf\n" +
-                "4 c. low-sodium chicken broth\n" +
-                "2 dried chiles de arbol, stem and seeds removed\n" +
-                "2 dried ancho chiles, stem and seeds removed\n" +
-                "2 dried guajillo chiles, stem and seeds removed\n" +
-                "3 (15-oz.) cans hominy, drained and rinsed \n" +
-                "Thinly sliced radishes, for serving\n" +
-                "Thinly sliced green cabbage, for serving\n" +
-                "Freshly chopped cilantro, for serving ");
-        recipes.add("Season pork with salt and pepper. In a large pot over medium heat, add pork, onion, garlic, cloves, cumin seeds, bay leaf," +
-                " and broth. Add enough water to cover pork by 2”. Bring to a boil, then cover and reduce heat to a simmer. Let simmer 1 ½ hours," +
-                " skimming foam off top as necessary.  \n" +
-                "Place dried chiles into a medium bowl and pour 2 cups boiling water over. Let soak 30 minutes. Place chiles and about " +
-                "½ cup of their soaking liquid into a blender. Blend until smooth, adding more water as necessary. \n" +
-                "Add chile puree and hominy to pot with pork. Continue to simmer, covered, until pork is very tender," +
-                " 1 hour and 30 minutes more. \n" +
-                "Serve pozole with radishes, cabbage, and cilantro. ");
+        name.add("Homestyle Chicken Noodle Soup");
+        description.add("A bowl of chicken noodle soup always equals comfort. The vegetables add nutrition and an aromatic flavor. This soup can be prepared at a moment’s notice and turns mealtime into a warm and satisfying experience. ");
+        images.add(R.drawable.homestylechickennoodlesoup);
+        ingredients.add("2 teaspoons olive oil\n" +
+                "3 medium carrots (thinly sliced)\n" +
+                "2 medium ribs of celery, leaves discarded, thinly sliced\n" +
+                "1 small onion (diced)\n" +
+                "4 cups fat-free, low-sodium chicken broth\n" +
+                "1 1/2 pounds boneless, skinless chicken breasts, all visible fat discarded, cut into bite-size pieces.\n" +
+                "3 cups water\n" +
+                "3 tablespoons fresh Italian (flat-leaf) parsley, minced.\n" +
+                "1/2 teaspoon dried thyme (crumbled)\n" +
+                "1/4 teaspoon salt\n" +
+                "1/4 teaspoon black pepper ((coarsely ground preferred))\n" +
+                "6 ounces dried no-yolk noodles ");
+        recipes.add("Heat the oil in the pressure cooker on sauté. Cook the carrots, celery, and onion for 3 minutes, or until the carrots and celery are tender and the onion is soft, stirring frequently. Stir in the broth, chicken, water, parsley, thyme, salt, and pepper.\n" +
+                "Secure the lid. Cook on high pressure for 12 minutes. Allow the pressure to release naturally for 10 minutes, then quickly release any remaining pressure. Remove the pressure cooker lid.\n" +
+                "Set the pressure cooker to sauté. Heat until the soup comes to a simmer. Stir in the noodles. Cook for 8 to 10 minutes, or until the noodles are tender, stirring frequently. ");
 
-        name.add("Best-Ever Pozole");
-        description.add("Don't let the time commitment scare you. It's as easy as bringing water to a boil and the longer you let it simmer, the better it will be. This soup is meant to be a little spicy," +
-                " but adjust the heat to your liking by adding more or less of the chile puree. The cabbage will help cool things off a bit! ");
-        images.add(R.drawable.best_ever_pozole);
-        ingredients.add("3 lb. pork shoulder, cut into 2\" pieces\n" +
-                "Kosher salt \n" +
-                "Freshly ground black pepper\n" +
-                "1 large yellow onion, quartered\n" +
-                "3 cloves garlic, sliced\n" +
-                "1 tsp. whole cloves\n" +
-                "1 tsp. cumin seeds\n" +
-                "1 bay leaf\n" +
-                "4 c. low-sodium chicken broth\n" +
-                "2 dried chiles de arbol, stem and seeds removed\n" +
-                "2 dried ancho chiles, stem and seeds removed\n" +
-                "2 dried guajillo chiles, stem and seeds removed\n" +
-                "3 (15-oz.) cans hominy, drained and rinsed \n" +
-                "Thinly sliced radishes, for serving\n" +
-                "Thinly sliced green cabbage, for serving\n" +
-                "Freshly chopped cilantro, for serving ");
-        recipes.add("Season pork with salt and pepper. In a large pot over medium heat, add pork, onion, garlic, cloves, cumin seeds, bay leaf," +
-                " and broth. Add enough water to cover pork by 2”. Bring to a boil, then cover and reduce heat to a simmer. Let simmer 1 ½ hours," +
-                " skimming foam off top as necessary.  \n" +
-                "Place dried chiles into a medium bowl and pour 2 cups boiling water over. Let soak 30 minutes. Place chiles and about " +
-                "½ cup of their soaking liquid into a blender. Blend until smooth, adding more water as necessary. \n" +
-                "Add chile puree and hominy to pot with pork. Continue to simmer, covered, until pork is very tender," +
-                " 1 hour and 30 minutes more. \n" +
-                "Serve pozole with radishes, cabbage, and cilantro. ");
+        name.add("Butternut Squash Soup");
+        description.add("This golden soup soothes and comforts after a busy day. Many grocery stores now sell the squash already peeled and cubed, so preparation is even easier. ");
+        images.add(R.drawable.butternutsquashsoup);
+        ingredients.add("2 teaspoons canola or corn oil\n" +
+                "2 medium shallots (chopped)\n" +
+                "1 medium butternut squash, peeled and cubed (about 3 cups)\n" +
+                "3 cups fat-free, low-sodium vegetable broth\n" +
+                "2 teaspoons minced, peeled gingerroot\n" +
+                "1/4 teaspoon salt\n" +
+                "1/4 teaspoon black pepper ((coarsely ground preferred))\n" +
+                "1/3 cup fat-free half-and-half\n" +
+                "1/4 teaspoon freshly grated or ground nutmeg ");
+        recipes.add("Heat the oil in the pressure cooker on sauté. Cook the shallots for 3 minutes, or until soft, stirring frequently. Turn off the pressure cooker.\n" +
+                "Stir in the squash, broth, gingerroot, salt, and pepper. Secure the lid. Cook on high pressure for 20 minutes. Allow the pressure to release naturally for 10 minutes, then quickly release any remaining pressure. Turn off the pressure cooker. Remove the pressure cooker lid.\n" +
+                "Allow the soup to cool slightly. Working in batches, transfer the soup to a blender (vent the blender lid) and puree until smooth. (Use caution as the soup and steam are hot and vent the blender lid away from you.) Return the soup to the pressure cooker.\n" +
+                "Stir in the half-and-half. Cook on the sauté setting for 2 to 3 minutes, or until heated through, stirring frequently. Ladle the soup into bowls. Sprinkle with the nutmeg. ");
 
-        name.add("Best-Ever Pozole");
-        description.add("Don't let the time commitment scare you. It's as easy as bringing water to a boil and the longer you let it simmer, the better it will be. This soup is meant to be a little spicy," +
-                " but adjust the heat to your liking by adding more or less of the chile puree. The cabbage will help cool things off a bit! ");
-        images.add(R.drawable.best_ever_pozole);
-        ingredients.add("3 lb. pork shoulder, cut into 2\" pieces\n" +
-                "Kosher salt \n" +
-                "Freshly ground black pepper\n" +
-                "1 large yellow onion, quartered\n" +
-                "3 cloves garlic, sliced\n" +
-                "1 tsp. whole cloves\n" +
-                "1 tsp. cumin seeds\n" +
-                "1 bay leaf\n" +
-                "4 c. low-sodium chicken broth\n" +
-                "2 dried chiles de arbol, stem and seeds removed\n" +
-                "2 dried ancho chiles, stem and seeds removed\n" +
-                "2 dried guajillo chiles, stem and seeds removed\n" +
-                "3 (15-oz.) cans hominy, drained and rinsed \n" +
-                "Thinly sliced radishes, for serving\n" +
-                "Thinly sliced green cabbage, for serving\n" +
-                "Freshly chopped cilantro, for serving ");
-        recipes.add("Season pork with salt and pepper. In a large pot over medium heat, add pork, onion, garlic, cloves, cumin seeds, bay leaf," +
-                " and broth. Add enough water to cover pork by 2”. Bring to a boil, then cover and reduce heat to a simmer. Let simmer 1 ½ hours," +
-                " skimming foam off top as necessary.  \n" +
-                "Place dried chiles into a medium bowl and pour 2 cups boiling water over. Let soak 30 minutes. Place chiles and about " +
-                "½ cup of their soaking liquid into a blender. Blend until smooth, adding more water as necessary. \n" +
-                "Add chile puree and hominy to pot with pork. Continue to simmer, covered, until pork is very tender," +
-                " 1 hour and 30 minutes more. \n" +
-                "Serve pozole with radishes, cabbage, and cilantro. ");
+        name.add("Sweet Nutty Stir Fry");
+        description.add("When you crave takeout but don’t want to load up on saturated fat and sodium, try this quick and crunchy meatless meal-in-one. ");
+        images.add(R.drawable.sweetnuttystirfry);
+        ingredients.add("4oz.dried, whole - grain vermicelli or spaghetti\n" +
+                "2 tsp. curry powder\n" +
+                "2 Tbsp. sugar\n" +
+                "2 Tbsp. low-sodium soy sauce (lowest sodium available)\n" +
+                "2 Tbsp. balsamic vinegar\n" +
+                "1 tsp. cornstarch\n" +
+                "1/4 tsp. crushed red pepper flakes\n" +
+                "1/3 cup fresh orange juice\n" +
+                "2 tsp. grated orange zest\n" +
+                "1 tsp corn oil\n" +
+                "1/2 cup thinly sliced onion\n" +
+                "2 cups broccoli florets (about 5 ounces), cut into bite-size pieces\n" +
+                "1 cup thinly sliced cabbage\n" +
+                "1 cup chopped carrots (cut into matchstick-size strips)\n" +
+                "1/2 cup unsalted, unoiled peanuts (dry-roasted) ");
+        recipes.add("Prepare the pasta using the package directions, omitting the salt and oil and adding the curry powder. Drain well in a colander.\n" +
+                "Meanwhile, in a small saucepan, combine the sugar, soy sauce, balsamic vinegar, cornstarch, red pepper flakes, and orange juice, stirring until the cornstarch is completely dissolved. Bring to a boil over medium-high heat and boil for 1 minute. Remove from the heat. Stir in the orange zest. Set aside.\n" +
+                "In a large nonstick skillet, heat the oil over medium-high heat, swirling to coat the bottom. Cook the onion for 1 minute. Stir in the broccoli, cabbage, and carrots. Cook for 4 minutes, or until just tender-crisp, stirring frequently.\n" +
+                "Transfer the pasta to a serving platter. Top with the broccoli mixture. Pour the sauce over all. Sprinkle with the peanuts. ");
 
     }
 
