@@ -41,6 +41,7 @@ public class MyAdapter2 extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         convertView = LayoutInflater.from(context).inflate(R.layout.list_item2, parent,false);
 
+
         TextView titleText = (TextView) convertView.findViewById(R.id.tvTitle2);
         ImageView imageView = (ImageView) convertView.findViewById(R.id.image_Image2);
         TextView subtitleText = (TextView) convertView.findViewById(R.id.tvDescription2);

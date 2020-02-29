@@ -52,28 +52,24 @@ public class Dessert extends AppCompatActivity {
     }
 
     private void addData() {
-        name.add("Mardi Gras Deviled Eggs");
-        description.add("Celebrate Mardi Gras with these purple, gold, and green deviled eggs." +
-                " Hard boiled eggs get pickled with purple cabbage to dye the whites naturally " +
-                "and a little cajun seasoning goes in the yolk mixture to make these deviled eggs New Orleans approved! ");
-        images.add(R.drawable.mardi_gras_deviled_eggs);
-        ingredients.add("3 c. chopped purple cabbage\n" +
-                "1 c. distilled vinegar\n" +
-                "1 tbsp. granulated sugar\n" +
-                "1/2 c. mayonnaise\n" +
-                "1 tbsp. dijon mustard\n" +
-                "1 tsp. hot sauce\n" +
-                "1 tsp. cajun seasoning\n" +
-                "Kosher salt\n" +
-                "Freshly ground black pepper\n" +
-                "Finely chopped chives, for garnish ");
-        recipes.add("Place eggs in large pot and pour enough water over to cover completely. Bring to a boil, then turn off heat and cover pot." +
-                " Let sit 11 minutes, then immediately remove eggs and place into a bowl of ice water. Peel eggs when cool enough to handle.\n" +
-                "In another large pot, bring 3 cups water, cabbage, vinegar, and sugar to a boil. Let cool slightly, then strain out cabbage. \n" +
-                "Place peeled eggs into a large bowl and pour cabbage liquid over. Refrigerate at least 3 hours and up to overnight. \n" +
-                "Halve eggs and place yolks in a medium bowl. Add mayonnaise, mustard, and hot sauce to yolks and mash with a fork until smooth." +
-                " Season with cajun seasoning, salt, and pepper. \n" +
-                "Pipe yolk mixture back into whites and top with chives to serve. ");
+        name.add("Apples with Almond-Apricot Sauce");
+        description.add("Baked apples are always a treat, but coring whole apples can be a hassle. Just buy larger apples and cut them in half! Then all you have to do is scoop out the easily accessible core, add the sweet toppings, and let your slow cooker take it from there. ");
+        images.add(R.drawable.applesalmondapricotsauce);
+        ingredients.add("Cooking spray\n" +
+                "2 tablespoons water\n" +
+                "2 large apples (about 8 ounces each), halved and cored\n" +
+                "1/4 cup chopped almonds\n" +
+                "2 tablespoons chopped dried apricots\n" +
+                "2 tablespoons firmly packed dark brown sugar\n" +
+                "1/4 teaspoon ground ginger (or)\n" +
+                "OR\n" +
+                "1/4 teaspoon ground allspice\n" +
+                "1/2 teaspoon ground cinnamon\n" +
+                "1/2 teaspoon vanilla extract\n" +
+                "1 tablespoon plus 1 teaspoon light tub margarine ");
+        recipes.add("Lightly spray the slow cooker with cooking spray. Pour in the water. Add the apple halves with the cut side up.\n" +
+                "In a small bowl, stir together the remaining ingredients except the margarine. Spoon onto each apple half. Top each with 1 teaspoon margarine. Cook, covered, on low for 2 to 2 1/2 hours or on high for 1 hour to 1 hour 15 minutes, or until just tender. Be careful not to overcook; the apples will continue to cook while cooling.\n" +
+                "Carefully transfer the apples to plates, leaving the sauce in the slow cooker. Stir the sauce. Spoon over the apples. Let cool completely, about 30 minutes. The sauce will thicken slightly while cooling. ");
 
 
         name.add("Kit Kat Egg Rolls");
@@ -92,92 +88,135 @@ public class Dessert extends AppCompatActivity {
                 " Remove from oil and place on a paper towel lined plate. Repeat with remaining Kit Kats. \n" +
                 "Dust with powdered sugar and serve with warmed caramel. ");
 
-        name.add("Best-Ever Pozole");
-        description.add("Don't let the time commitment scare you. It's as easy as bringing water to a boil and the longer you let it simmer, the better it will be. This soup is meant to be a little spicy," +
-                " but adjust the heat to your liking by adding more or less of the chile puree. The cabbage will help cool things off a bit! ");
-        images.add(R.drawable.best_ever_pozole);
-        ingredients.add("3 lb. pork shoulder, cut into 2\" pieces\n" +
-                "Kosher salt \n" +
-                "Freshly ground black pepper\n" +
-                "1 large yellow onion, quartered\n" +
-                "3 cloves garlic, sliced\n" +
-                "1 tsp. whole cloves\n" +
-                "1 tsp. cumin seeds\n" +
-                "1 bay leaf\n" +
-                "4 c. low-sodium chicken broth\n" +
-                "2 dried chiles de arbol, stem and seeds removed\n" +
-                "2 dried ancho chiles, stem and seeds removed\n" +
-                "2 dried guajillo chiles, stem and seeds removed\n" +
-                "3 (15-oz.) cans hominy, drained and rinsed \n" +
-                "Thinly sliced radishes, for serving\n" +
-                "Thinly sliced green cabbage, for serving\n" +
-                "Freshly chopped cilantro, for serving ");
-        recipes.add("Season pork with salt and pepper. In a large pot over medium heat, add pork, onion, garlic, cloves, cumin seeds, bay leaf," +
-                " and broth. Add enough water to cover pork by 2”. Bring to a boil, then cover and reduce heat to a simmer. Let simmer 1 ½ hours," +
-                " skimming foam off top as necessary.  \n" +
-                "Place dried chiles into a medium bowl and pour 2 cups boiling water over. Let soak 30 minutes. Place chiles and about " +
-                "½ cup of their soaking liquid into a blender. Blend until smooth, adding more water as necessary. \n" +
-                "Add chile puree and hominy to pot with pork. Continue to simmer, covered, until pork is very tender," +
-                " 1 hour and 30 minutes more. \n" +
-                "Serve pozole with radishes, cabbage, and cilantro. ");
+        name.add("Raspberry-Mango Breakfast Parfaits");
+        description.add("For breakfast or dessert, this parfait makes delicious use of seasonal fruits. ");
+        images.add(R.drawable.raspberrymangobreakfastparfaitssized);
+        ingredients.add("fresh or frozen unsweetened raspberries, thawed if frozen\n" +
+                "1 medium mango (diced)\n" +
+                "4 6-ounce containers fat-free, sugar-free vanilla yogurt\n" +
+                "1 Tbsp. sugar\n" +
+                "1/2 tsp. ground cinnamon ");
+        recipes.add("In each of 4 parfait glasses or wine goblets, spoon 2 tablespoons raspberries, 2 tablespoons mango, and a heaping 1/3 cup yogurt. Repeat the layers, using all the remaining yogurt.\n" +
+                "In a food processor or blender, process the remaining raspberries and mango with the sugar and cinnamon until smooth. Spoon over each serving. ");
 
-        name.add("Best-Ever Pozole");
-        description.add("Don't let the time commitment scare you. It's as easy as bringing water to a boil and the longer you let it simmer, the better it will be. This soup is meant to be a little spicy," +
-                " but adjust the heat to your liking by adding more or less of the chile puree. The cabbage will help cool things off a bit! ");
-        images.add(R.drawable.best_ever_pozole);
-        ingredients.add("3 lb. pork shoulder, cut into 2\" pieces\n" +
-                "Kosher salt \n" +
-                "Freshly ground black pepper\n" +
-                "1 large yellow onion, quartered\n" +
-                "3 cloves garlic, sliced\n" +
-                "1 tsp. whole cloves\n" +
-                "1 tsp. cumin seeds\n" +
-                "1 bay leaf\n" +
-                "4 c. low-sodium chicken broth\n" +
-                "2 dried chiles de arbol, stem and seeds removed\n" +
-                "2 dried ancho chiles, stem and seeds removed\n" +
-                "2 dried guajillo chiles, stem and seeds removed\n" +
-                "3 (15-oz.) cans hominy, drained and rinsed \n" +
-                "Thinly sliced radishes, for serving\n" +
-                "Thinly sliced green cabbage, for serving\n" +
-                "Freshly chopped cilantro, for serving ");
-        recipes.add("Season pork with salt and pepper. In a large pot over medium heat, add pork, onion, garlic, cloves, cumin seeds, bay leaf," +
-                " and broth. Add enough water to cover pork by 2”. Bring to a boil, then cover and reduce heat to a simmer. Let simmer 1 ½ hours," +
-                " skimming foam off top as necessary.  \n" +
-                "Place dried chiles into a medium bowl and pour 2 cups boiling water over. Let soak 30 minutes. Place chiles and about " +
-                "½ cup of their soaking liquid into a blender. Blend until smooth, adding more water as necessary. \n" +
-                "Add chile puree and hominy to pot with pork. Continue to simmer, covered, until pork is very tender," +
-                " 1 hour and 30 minutes more. \n" +
-                "Serve pozole with radishes, cabbage, and cilantro. ");
+        name.add("Southern Cornbread");
+        description.add("This Southern side dish staple adds flavor to any meal. ");
+        images.add(R.drawable.southerncornbreadsized);
+        ingredients.add("Cooking spray\n" +
+                "1 cup yellow cornmeal\n" +
+                        "1/2 cup all-purpose flour\n" +
+                        "1/2 cup whole-wheat flour\n" +
+                        "2 Tbsp. sugar\n" +
+                        "1/2 tsp. baking soda\n" +
+                        "1/2 tsp. baking powder\n" +
+                        "1/8 tsp. salt\n" +
+                        "1 cup no-salt-added cream-style corn (undrained)\n" +
+                        "1/2 cup frozen whole kernel corn (thawed)\n" +
+                        "1/2 cup low-fat buttermilk\n" +
+                        "1/4 cup fat-free milk\n" +
+                        "1 large egg\n" +
+                        "2 Tbsp. canola oil\n" +
+                        "OR\n" +
+                        "2 Tbsp corn oil ");
+        recipes.add("Preheat the oven to 425°F. Lightly spray a 9-inch square or round baking pan or pie pan with cooking spray.\n" +
+                "In a large bowl, stir together the cornmeal, both flours, sugar, baking soda, baking powder, and salt. Make a well in the center.\n" +
+                "In a medium bowl, stir together the remaining ingredients. Pour into the well in the flour mixture, stirring just until moistened. Spoon into the baking pan. Lightly spray the top of the batter with cooking spray.\n" +
+                "Bake for 20 to 25 minutes, or until a wooden toothpick inserted in the center comes out clean. Transfer the pan to a cooling rack and let cool for 5 to 10 minutes before slicing. ");
 
-        name.add("Best-Ever Pozole");
-        description.add("Don't let the time commitment scare you. It's as easy as bringing water to a boil and the longer you let it simmer, the better it will be. This soup is meant to be a little spicy," +
-                " but adjust the heat to your liking by adding more or less of the chile puree. The cabbage will help cool things off a bit! ");
-        images.add(R.drawable.best_ever_pozole);
-        ingredients.add("3 lb. pork shoulder, cut into 2\" pieces\n" +
-                "Kosher salt \n" +
-                "Freshly ground black pepper\n" +
-                "1 large yellow onion, quartered\n" +
-                "3 cloves garlic, sliced\n" +
-                "1 tsp. whole cloves\n" +
-                "1 tsp. cumin seeds\n" +
-                "1 bay leaf\n" +
-                "4 c. low-sodium chicken broth\n" +
-                "2 dried chiles de arbol, stem and seeds removed\n" +
-                "2 dried ancho chiles, stem and seeds removed\n" +
-                "2 dried guajillo chiles, stem and seeds removed\n" +
-                "3 (15-oz.) cans hominy, drained and rinsed \n" +
-                "Thinly sliced radishes, for serving\n" +
-                "Thinly sliced green cabbage, for serving\n" +
-                "Freshly chopped cilantro, for serving ");
-        recipes.add("Season pork with salt and pepper. In a large pot over medium heat, add pork, onion, garlic, cloves, cumin seeds, bay leaf," +
-                " and broth. Add enough water to cover pork by 2”. Bring to a boil, then cover and reduce heat to a simmer. Let simmer 1 ½ hours," +
-                " skimming foam off top as necessary.  \n" +
-                "Place dried chiles into a medium bowl and pour 2 cups boiling water over. Let soak 30 minutes. Place chiles and about " +
-                "½ cup of their soaking liquid into a blender. Blend until smooth, adding more water as necessary. \n" +
-                "Add chile puree and hominy to pot with pork. Continue to simmer, covered, until pork is very tender," +
-                " 1 hour and 30 minutes more. \n" +
-                "Serve pozole with radishes, cabbage, and cilantro. ");
+        name.add("Raspberry-Lemonade Slushie");
+        description.add("Chill out when the weather’s warm and treat yourself to this frozen drink that’s a blend of seasonal fresh raspberries and fresh lemon juice. ");
+        images.add(R.drawable.raspberrylemonadeslushie);
+        ingredients.add("12 oz raspberries\n" +
+                "1 cup sugar substitute\n" +
+                "1/2 cup fresh lemon juice\n" +
+                "5 cups ice cubes ");
+        recipes.add(
+                "In a food processor or blender, process the raspberries, sugar substitute, and lemon juice until the raspberries are puréed.\n" +
+                "Add the ice cubes. Process until the mixture is mostly smooth and has a slushie-like consistency. (It’s okay if there are a few ice chunks. Don’t overmix.)\n" +
+                "Divide the slushie into cups. Serve immediately. ");
+
+        name.add("Apples with Almond-Apricot Sauce");
+        description.add("Baked apples are always a treat, but coring whole apples can be a hassle. Just buy larger apples and cut them in half! Then all you have to do is scoop out the easily accessible core, add the sweet toppings, and let your slow cooker take it from there. ");
+        images.add(R.drawable.applesalmondapricotsauce);
+        ingredients.add("Cooking spray\n" +
+                "2 tablespoons water\n" +
+                "2 large apples (about 8 ounces each), halved and cored\n" +
+                "1/4 cup chopped almonds\n" +
+                "2 tablespoons chopped dried apricots\n" +
+                "2 tablespoons firmly packed dark brown sugar\n" +
+                "1/4 teaspoon ground ginger (or)\n" +
+                "OR\n" +
+                "1/4 teaspoon ground allspice\n" +
+                "1/2 teaspoon ground cinnamon\n" +
+                "1/2 teaspoon vanilla extract\n" +
+                "1 tablespoon plus 1 teaspoon light tub margarine ");
+        recipes.add("Lightly spray the slow cooker with cooking spray. Pour in the water. Add the apple halves with the cut side up.\n" +
+                "In a small bowl, stir together the remaining ingredients except the margarine. Spoon onto each apple half. Top each with 1 teaspoon margarine. Cook, covered, on low for 2 to 2 1/2 hours or on high for 1 hour to 1 hour 15 minutes, or until just tender. Be careful not to overcook; the apples will continue to cook while cooling.\n" +
+                "Carefully transfer the apples to plates, leaving the sauce in the slow cooker. Stir the sauce. Spoon over the apples. Let cool completely, about 30 minutes. The sauce will thicken slightly while cooling. ");
+
+
+        name.add("Kit Kat Egg Rolls");
+        description.add("Fried candy bars have become a state fair staple. Kit Kat egg rolls makes the candy bar even crispier and with extra chocolate they" +
+                " become even better! Kit Kat lovers will go crazy for this simple treat.");
+        images.add(R.drawable.kit_kat_egg_rolls);
+        ingredients.add("12 wonton wrappers\n" +
+                "1/2 c. melted chocolate\n" +
+                "12 mini Kit Kats\n" +
+                "Vegetable oil, for frying\n" +
+                "Powdered sugar, for dusting\n" +
+                "Caramel, warmed, for dipping");
+        recipes.add("Place wonton wrappers on a clean surface in a diamond shape. Spread a thin layer of melted chocolate in middle of wrapper and place a Kit Kat on top. " +
+                "Fold bottom point over Kit Kat, then fold corners in. Wet top point with a little water then roll to seal. \n" +
+                "In a medium skillet over medium heat, heat enough oil to come ½” up the side of pan. Working in batches, add Kit Kats to oil and fry until golden, 1 minute per side." +
+                " Remove from oil and place on a paper towel lined plate. Repeat with remaining Kit Kats. \n" +
+                "Dust with powdered sugar and serve with warmed caramel. ");
+
+        name.add("Raspberry-Mango Breakfast Parfaits");
+        description.add("For breakfast or dessert, this parfait makes delicious use of seasonal fruits. ");
+        images.add(R.drawable.raspberrymangobreakfastparfaitssized);
+        ingredients.add("fresh or frozen unsweetened raspberries, thawed if frozen\n" +
+                "1 medium mango (diced)\n" +
+                "4 6-ounce containers fat-free, sugar-free vanilla yogurt\n" +
+                "1 Tbsp. sugar\n" +
+                "1/2 tsp. ground cinnamon ");
+        recipes.add("In each of 4 parfait glasses or wine goblets, spoon 2 tablespoons raspberries, 2 tablespoons mango, and a heaping 1/3 cup yogurt. Repeat the layers, using all the remaining yogurt.\n" +
+                "In a food processor or blender, process the remaining raspberries and mango with the sugar and cinnamon until smooth. Spoon over each serving. ");
+
+        name.add("Southern Cornbread");
+        description.add("This Southern side dish staple adds flavor to any meal. ");
+        images.add(R.drawable.southerncornbreadsized);
+        ingredients.add("Cooking spray\n" +
+                "1 cup yellow cornmeal\n" +
+                "1/2 cup all-purpose flour\n" +
+                "1/2 cup whole-wheat flour\n" +
+                "2 Tbsp. sugar\n" +
+                "1/2 tsp. baking soda\n" +
+                "1/2 tsp. baking powder\n" +
+                "1/8 tsp. salt\n" +
+                "1 cup no-salt-added cream-style corn (undrained)\n" +
+                "1/2 cup frozen whole kernel corn (thawed)\n" +
+                "1/2 cup low-fat buttermilk\n" +
+                "1/4 cup fat-free milk\n" +
+                "1 large egg\n" +
+                "2 Tbsp. canola oil\n" +
+                "OR\n" +
+                "2 Tbsp corn oil ");
+        recipes.add("Preheat the oven to 425°F. Lightly spray a 9-inch square or round baking pan or pie pan with cooking spray.\n" +
+                "In a large bowl, stir together the cornmeal, both flours, sugar, baking soda, baking powder, and salt. Make a well in the center.\n" +
+                "In a medium bowl, stir together the remaining ingredients. Pour into the well in the flour mixture, stirring just until moistened. Spoon into the baking pan. Lightly spray the top of the batter with cooking spray.\n" +
+                "Bake for 20 to 25 minutes, or until a wooden toothpick inserted in the center comes out clean. Transfer the pan to a cooling rack and let cool for 5 to 10 minutes before slicing. ");
+
+        name.add("Raspberry-Lemonade Slushie");
+        description.add("Chill out when the weather’s warm and treat yourself to this frozen drink that’s a blend of seasonal fresh raspberries and fresh lemon juice. ");
+        images.add(R.drawable.raspberrylemonadeslushie);
+        ingredients.add("12 oz raspberries\n" +
+                "1 cup sugar substitute\n" +
+                "1/2 cup fresh lemon juice\n" +
+                "5 cups ice cubes ");
+        recipes.add(
+                "In a food processor or blender, process the raspberries, sugar substitute, and lemon juice until the raspberries are puréed.\n" +
+                        "Add the ice cubes. Process until the mixture is mostly smooth and has a slushie-like consistency. (It’s okay if there are a few ice chunks. Don’t overmix.)\n" +
+                        "Divide the slushie into cups. Serve immediately. ");
 
     }
 

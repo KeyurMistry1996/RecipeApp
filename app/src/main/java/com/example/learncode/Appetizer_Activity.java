@@ -55,74 +55,61 @@ public class Appetizer_Activity extends AppCompatActivity {
     }
 
     private void addData() {
-        name.add("Mardi Gras Deviled Eggs");
-        description.add("Celebrate Mardi Gras with these purple, gold, and green deviled eggs." +
-                " Hard boiled eggs get pickled with purple cabbage to dye the whites naturally " +
-                "and a little cajun seasoning goes in the yolk mixture to make these deviled eggs New Orleans approved! ");
-        images.add(R.drawable.mardi_gras_deviled_eggs);
-        ingredients.add("3 c. chopped purple cabbage\n" +
-                "1 c. distilled vinegar\n" +
-                "1 tbsp. granulated sugar\n" +
-                "1/2 c. mayonnaise\n" +
-                "1 tbsp. dijon mustard\n" +
-                "1 tsp. hot sauce\n" +
-                "1 tsp. cajun seasoning\n" +
-                "Kosher salt\n" +
-                "Freshly ground black pepper\n" +
-                "Finely chopped chives, for garnish ");
-        recipes.add("Place eggs in large pot and pour enough water over to cover completely. Bring to a boil, then turn off heat and cover pot." +
-                " Let sit 11 minutes, then immediately remove eggs and place into a bowl of ice water. Peel eggs when cool enough to handle.\n" +
-                "In another large pot, bring 3 cups water, cabbage, vinegar, and sugar to a boil. Let cool slightly, then strain out cabbage. \n" +
-                "Place peeled eggs into a large bowl and pour cabbage liquid over. Refrigerate at least 3 hours and up to overnight. \n" +
-                "Halve eggs and place yolks in a medium bowl. Add mayonnaise, mustard, and hot sauce to yolks and mash with a fork until smooth." +
-                " Season with cajun seasoning, salt, and pepper. \n" +
-                "Pipe yolk mixture back into whites and top with chives to serve. ");
+        name.add("Saucy Boneless Chicken \"Wings\" with Cherry Barbecue Sauce");
+        description.add("This healthier-for-you version of the popular appetizer is perfect for game day and potluck meals. A sweet-tart sauce elevates these wings to new heights.");
+        images.add(R.drawable.saucybonelesschickenwings);
+        ingredients.add("1/2 teaspoon chili powder\n" +
+                "1/2 teaspoon garlic powder\n" +
+                "1/2 teaspoon onion powder\n" +
+                "1/2 teaspoon ground cumin\n" +
+                "2 tablespoons all-purpose flour\n" +
+                "1 pound boneless, skinless chicken breast halves, all visible fat discarded, cut into 3 x 1/2-inch strips (16 strips total) ");
+        recipes.add("In a small bowl, stir together the Cherry Barbecue Sauce ingredients.Set aside. \n" +
+                "In a second small bowl, stir together 1/2 teaspoon chili powder, 1/2 teaspoon garlic powder, 1/2 teaspoon onion powder, and 1/2 teaspoon cumin. Stir in the flour.\n" +
+                        "Dip the chicken strips in the chili powder mixture, turning to coat and gently shaking off any excess. Using your fingertips, gently press the coating so it adheres to the chicken. Place the strips in the slow cooker. Stir the sauce together with the chicken. Cook, covered, on low for 3 to 4 hours or on high for 1 1/2 to 2 hours. ");
 
 
-        name.add("Kit Kat Egg Rolls");
-        description.add("Fried candy bars have become a state fair staple. Kit Kat egg rolls makes the candy bar even crispier and with extra chocolate they" +
-                " become even better! Kit Kat lovers will go crazy for this simple treat.");
-        images.add(R.drawable.kit_kat_egg_rolls);
-        ingredients.add("12 wonton wrappers\n" +
-                "1/2 c. melted chocolate\n" +
-                "12 mini Kit Kats\n" +
-                "Vegetable oil, for frying\n" +
-                "Powdered sugar, for dusting\n" +
-                "Caramel, warmed, for dipping");
-        recipes.add("Place wonton wrappers on a clean surface in a diamond shape. Spread a thin layer of melted chocolate in middle of wrapper and place a Kit Kat on top. " +
-                "Fold bottom point over Kit Kat, then fold corners in. Wet top point with a little water then roll to seal. \n" +
-                "In a medium skillet over medium heat, heat enough oil to come ½” up the side of pan. Working in batches, add Kit Kats to oil and fry until golden, 1 minute per side." +
-                " Remove from oil and place on a paper towel lined plate. Repeat with remaining Kit Kats. \n" +
-                "Dust with powdered sugar and serve with warmed caramel. ");
+        name.add("Greek Frittata with Spinach Goat Cheese and Roasted Red Bell Peppers");
+        description.add("Surprise! You can make brunch in a slow cooker. This veggie-packed frittata is infused with Mediterranean flavors. Invite your friends over, toss a fresh fruit salad, toast some whole-grain country bread, and you’re ready for an almost effortless get-together.");
+        images.add(R.drawable.greekfrittata);
+        ingredients.add("Cooking spray\n" +
+                "4 large eggs\n" +
+                "4 large egg whites\n" +
+                "1/3 cup low-fat milk\n" +
+                "1/2 teaspoon dried oregano (crumbled)\n" +
+                "1/4 teaspoon salt\n" +
+                "1/4 teaspoon pepper\n" +
+                "10 ounces frozen chopped spinach, thawed, drained, and squeezed until very dry\n" +
+                "1/2 cup bottled roasted red bell peppers, drained, patted dry, and chopped\n" +
+                "3 ounces soft goat cheese, crumbled\n" +
+                "2 small thinly sliced green onions ");
+        recipes.add("Lightly spray the slow cooker with cooking spray.\n" +
+                "In a large bowl, whisk together the eggs, egg whites, milk, oregano, salt, and pepper. Stir in the remaining ingredients. Pour into the slow cooker.\n" +
+                "Cook, covered, on low for 2 1/2 to 3 hours, or until set (the frittata doesn’t jiggle when the slow cooker is gently shaken). Using a wide spatula, gently lift the frittata out of the slow cooker. Transfer to a cutting board. Let stand for 5 minutes before slicing.");
 
-        name.add("Best-Ever Pozole");
-        description.add("Don't let the time commitment scare you. It's as easy as bringing water to a boil and the longer you let it simmer, the better it will be. This soup is meant to be a little spicy," +
-                " but adjust the heat to your liking by adding more or less of the chile puree. The cabbage will help cool things off a bit! ");
-        images.add(R.drawable.best_ever_pozole);
-        ingredients.add("3 lb. pork shoulder, cut into 2\" pieces\n" +
-                "Kosher salt \n" +
-                "Freshly ground black pepper\n" +
-                "1 large yellow onion, quartered\n" +
-                "3 cloves garlic, sliced\n" +
-                "1 tsp. whole cloves\n" +
-                "1 tsp. cumin seeds\n" +
-                "1 bay leaf\n" +
-                "4 c. low-sodium chicken broth\n" +
-                "2 dried chiles de arbol, stem and seeds removed\n" +
-                "2 dried ancho chiles, stem and seeds removed\n" +
-                "2 dried guajillo chiles, stem and seeds removed\n" +
-                "3 (15-oz.) cans hominy, drained and rinsed \n" +
-                "Thinly sliced radishes, for serving\n" +
-                "Thinly sliced green cabbage, for serving\n" +
-                "Freshly chopped cilantro, for serving ");
-        recipes.add("Season pork with salt and pepper. In a large pot over medium heat, add pork, onion, garlic, cloves, cumin seeds, bay leaf," +
-                " and broth. Add enough water to cover pork by 2”. Bring to a boil, then cover and reduce heat to a simmer. Let simmer 1 ½ hours," +
-                " skimming foam off top as necessary.  \n" +
-                "Place dried chiles into a medium bowl and pour 2 cups boiling water over. Let soak 30 minutes. Place chiles and about " +
-                "½ cup of their soaking liquid into a blender. Blend until smooth, adding more water as necessary. \n" +
-                "Add chile puree and hominy to pot with pork. Continue to simmer, covered, until pork is very tender," +
-                " 1 hour and 30 minutes more. \n" +
-                "Serve pozole with radishes, cabbage, and cilantro. ");
+        name.add("Steamed Pumpkin Bread");
+        description.add("Pumpkin, dried cranberries, walnuts, and spices update a traditional steamed brown bread recipe. The result is moist and delicious. ");
+        images.add(R.drawable.steamedpumpkinbread);
+        ingredients.add("Cooking spray\n" +
+                "6 cups water\n" +
+                "1/2 cup all-purpose flour\n" +
+                "1/2 cup whole-wheat pastry flour\n" +
+                "1/2 cup cornmeal\n" +
+                "1 teaspoon baking soda\n" +
+                "1 teaspoon ground cinnamon\n" +
+                "1/2 teaspoon ground allspice\n" +
+                "1/4 teaspoon salt\n" +
+                "1/3 cup unsweetened dried cranberries\n" +
+                "1/3 cup chopped walnuts\n" +
+                "3/4 cup canned solid-pack pumpkin (not pie filling)\n" +
+                "3/4 cup low-fat buttermilk\n" +
+                "2 large egg whites\n" +
+                "1/4 cup of dark or light molasses ");
+        recipes.add("Lightly spray a 9 x 5 x 3-inch ovenproof glass loaf pan with cooking spray. Place a metal rack with short legs, such as a pressure cooker rack, or three or four 12 x 6-inch sheets of aluminum foil crumpled into balls in the slow cooker.\n" +
+                "In a large saucepan, bring the water to a boil over high heat.\n" +
+                "Meanwhile, in a large bowl, stir together the flours, cornmeal, baking soda, cinnamon, allspice, and salt. Stir in the cranberries and walnuts. Make a well in the center.\n" +
+                "In a medium bowl, whisk together the pumpkin, buttermilk, egg whites, and molasses. Pour into the well. Stir just until the flour mixture is moistened, but no flour is visible. Don’t overmix. Pour into the loaf pan, gently smoothing the top. Cover tightly with aluminum foil. Secure with kitchen twine.\n" +
+                "Place the pan on the rack or crumpled foil in the slow cooker. Pour the boiling water down the side of the crock until the water reaches midway up the side of the pan. Cook, covered, on high for 2 to 2 1/2 hours, or until a wooden toothpick inserted in the center of the bread comes out clean. Carefully transfer the pan to a cooling rack. Discard the foil. Let the bread cool in the pan for 10 minutes. Turn out onto the cooling rack. Serve the bread warm.\n ");
 
         name.add("Best-Ever Pozole");
         description.add("Don't let the time commitment scare you. It's as easy as bringing water to a boil and the longer you let it simmer, the better it will be. This soup is meant to be a little spicy," +
@@ -153,6 +140,86 @@ public class Appetizer_Activity extends AppCompatActivity {
                 " 1 hour and 30 minutes more. \n" +
                 "Serve pozole with radishes, cabbage, and cilantro. ");
 
+        name.add("Acorn Squash Wedges with Walnuts");
+        description.add("Achieving an attractive browned finish to slow-cooked food usually isn’t easy, but that isn’t a problem here. The cut sides of acorn squash wedges lie on top of skillet-browned onions and brown as they slow cook; then the onions are incorporated into a brown-sugar-and-walnut sauce to top the squash. “Browning” never looked better! ");
+        images.add(R.drawable.acornsquashwedgeswalnuts);
+        ingredients.add("Cooking spray\n" +
+                "1 teaspoon canola oil (or)\n" +
+                "OR\n" +
+                "1 teaspoon corn oil\n" +
+                "1 medium diced onion\n" +
+                "1/4 cup water\n" +
+                "2 tablespoons chopped walnuts\n" +
+                "3/4 teaspoon ground cinnamon\n" +
+                "1/4 teaspoon ground nutmeg\n" +
+                "1 large acorn squash (about 1 1/2 pounds), seeds and strings discarded, cut into 4 wedges\n" +
+                "1 tablespoon plus 1 teaspoon firmly packed dark brown sugar\n" +
+                "1 tablespoon light tub margarine\n" +
+                "1 teaspoon vanilla extract\n" +
+                "1/8 teaspoon salt\n" +
+                "2 teaspoons canola or corn oil ");
+        recipes.add("Lightly spray the slow cooker with cooking spray. Set aside.\n" +
+                "In a large nonstick skillet, heat 1 teaspoon oil over medium-high heat, swirling to coat the bottom. Cook the onion for 3 to 4 minutes, or until beginning to lightly brown, stirring frequently. Transfer to the slow cooker.\n" +
+                "Stir in the water, walnuts, cinnamon, and nutmeg.\n" +
+                "Arrange each squash wedge with a cut side down on top of the onion mixture, making sure that a cut side of each squash wedge touches the onion mixture. Cook, covered, on low for 4 hours or on high for 2 hours, or until the squash is tender when pierced with a fork.\n" +
+                "Place the squash wedges on plates. Stir the remaining ingredients into the onion mixture. Spoon over the squash.\n ");
+
+        name.add("Saucy Boneless Chicken \"Wings\" with Cherry Barbecue Sauce");
+        description.add("This healthier-for-you version of the popular appetizer is perfect for game day and potluck meals. A sweet-tart sauce elevates these wings to new heights.");
+        images.add(R.drawable.saucybonelesschickenwings);
+        ingredients.add("1/2 teaspoon chili powder\n" +
+                "1/2 teaspoon garlic powder\n" +
+                "1/2 teaspoon onion powder\n" +
+                "1/2 teaspoon ground cumin\n" +
+                "2 tablespoons all-purpose flour\n" +
+                "1 pound boneless, skinless chicken breast halves, all visible fat discarded, cut into 3 x 1/2-inch strips (16 strips total) ");
+        recipes.add("In a small bowl, stir together the Cherry Barbecue Sauce ingredients.Set aside. \n" +
+                "In a second small bowl, stir together 1/2 teaspoon chili powder, 1/2 teaspoon garlic powder, 1/2 teaspoon onion powder, and 1/2 teaspoon cumin. Stir in the flour.\n" +
+                "Dip the chicken strips in the chili powder mixture, turning to coat and gently shaking off any excess. Using your fingertips, gently press the coating so it adheres to the chicken. Place the strips in the slow cooker. Stir the sauce together with the chicken. Cook, covered, on low for 3 to 4 hours or on high for 1 1/2 to 2 hours. ");
+
+
+        name.add("Greek Frittata with Spinach Goat Cheese and Roasted Red Bell Peppers");
+        description.add("Surprise! You can make brunch in a slow cooker. This veggie-packed frittata is infused with Mediterranean flavors. Invite your friends over, toss a fresh fruit salad, toast some whole-grain country bread, and you’re ready for an almost effortless get-together.");
+        images.add(R.drawable.greekfrittata);
+        ingredients.add("Cooking spray\n" +
+                "4 large eggs\n" +
+                "4 large egg whites\n" +
+                "1/3 cup low-fat milk\n" +
+                "1/2 teaspoon dried oregano (crumbled)\n" +
+                "1/4 teaspoon salt\n" +
+                "1/4 teaspoon pepper\n" +
+                "10 ounces frozen chopped spinach, thawed, drained, and squeezed until very dry\n" +
+                "1/2 cup bottled roasted red bell peppers, drained, patted dry, and chopped\n" +
+                "3 ounces soft goat cheese, crumbled\n" +
+                "2 small thinly sliced green onions ");
+        recipes.add("Lightly spray the slow cooker with cooking spray.\n" +
+                "In a large bowl, whisk together the eggs, egg whites, milk, oregano, salt, and pepper. Stir in the remaining ingredients. Pour into the slow cooker.\n" +
+                "Cook, covered, on low for 2 1/2 to 3 hours, or until set (the frittata doesn’t jiggle when the slow cooker is gently shaken). Using a wide spatula, gently lift the frittata out of the slow cooker. Transfer to a cutting board. Let stand for 5 minutes before slicing.");
+
+        name.add("Steamed Pumpkin Bread");
+        description.add("Pumpkin, dried cranberries, walnuts, and spices update a traditional steamed brown bread recipe. The result is moist and delicious. ");
+        images.add(R.drawable.steamedpumpkinbread);
+        ingredients.add("Cooking spray\n" +
+                "6 cups water\n" +
+                "1/2 cup all-purpose flour\n" +
+                "1/2 cup whole-wheat pastry flour\n" +
+                "1/2 cup cornmeal\n" +
+                "1 teaspoon baking soda\n" +
+                "1 teaspoon ground cinnamon\n" +
+                "1/2 teaspoon ground allspice\n" +
+                "1/4 teaspoon salt\n" +
+                "1/3 cup unsweetened dried cranberries\n" +
+                "1/3 cup chopped walnuts\n" +
+                "3/4 cup canned solid-pack pumpkin (not pie filling)\n" +
+                "3/4 cup low-fat buttermilk\n" +
+                "2 large egg whites\n" +
+                "1/4 cup of dark or light molasses ");
+        recipes.add("Lightly spray a 9 x 5 x 3-inch ovenproof glass loaf pan with cooking spray. Place a metal rack with short legs, such as a pressure cooker rack, or three or four 12 x 6-inch sheets of aluminum foil crumpled into balls in the slow cooker.\n" +
+                "In a large saucepan, bring the water to a boil over high heat.\n" +
+                "Meanwhile, in a large bowl, stir together the flours, cornmeal, baking soda, cinnamon, allspice, and salt. Stir in the cranberries and walnuts. Make a well in the center.\n" +
+                "In a medium bowl, whisk together the pumpkin, buttermilk, egg whites, and molasses. Pour into the well. Stir just until the flour mixture is moistened, but no flour is visible. Don’t overmix. Pour into the loaf pan, gently smoothing the top. Cover tightly with aluminum foil. Secure with kitchen twine.\n" +
+                "Place the pan on the rack or crumpled foil in the slow cooker. Pour the boiling water down the side of the crock until the water reaches midway up the side of the pan. Cook, covered, on high for 2 to 2 1/2 hours, or until a wooden toothpick inserted in the center of the bread comes out clean. Carefully transfer the pan to a cooling rack. Discard the foil. Let the bread cool in the pan for 10 minutes. Turn out onto the cooling rack. Serve the bread warm.\n ");
+
         name.add("Best-Ever Pozole");
         description.add("Don't let the time commitment scare you. It's as easy as bringing water to a boil and the longer you let it simmer, the better it will be. This soup is meant to be a little spicy," +
                 " but adjust the heat to your liking by adding more or less of the chile puree. The cabbage will help cool things off a bit! ");
@@ -181,6 +248,30 @@ public class Appetizer_Activity extends AppCompatActivity {
                 "Add chile puree and hominy to pot with pork. Continue to simmer, covered, until pork is very tender," +
                 " 1 hour and 30 minutes more. \n" +
                 "Serve pozole with radishes, cabbage, and cilantro. ");
+
+        name.add("Acorn Squash Wedges with Walnuts");
+        description.add("Achieving an attractive browned finish to slow-cooked food usually isn’t easy, but that isn’t a problem here. The cut sides of acorn squash wedges lie on top of skillet-browned onions and brown as they slow cook; then the onions are incorporated into a brown-sugar-and-walnut sauce to top the squash. “Browning” never looked better! ");
+        images.add(R.drawable.acornsquashwedgeswalnuts);
+        ingredients.add("Cooking spray\n" +
+                "1 teaspoon canola oil (or)\n" +
+                "OR\n" +
+                "1 teaspoon corn oil\n" +
+                "1 medium diced onion\n" +
+                "1/4 cup water\n" +
+                "2 tablespoons chopped walnuts\n" +
+                "3/4 teaspoon ground cinnamon\n" +
+                "1/4 teaspoon ground nutmeg\n" +
+                "1 large acorn squash (about 1 1/2 pounds), seeds and strings discarded, cut into 4 wedges\n" +
+                "1 tablespoon plus 1 teaspoon firmly packed dark brown sugar\n" +
+                "1 tablespoon light tub margarine\n" +
+                "1 teaspoon vanilla extract\n" +
+                "1/8 teaspoon salt\n" +
+                "2 teaspoons canola or corn oil ");
+        recipes.add("Lightly spray the slow cooker with cooking spray. Set aside.\n" +
+                "In a large nonstick skillet, heat 1 teaspoon oil over medium-high heat, swirling to coat the bottom. Cook the onion for 3 to 4 minutes, or until beginning to lightly brown, stirring frequently. Transfer to the slow cooker.\n" +
+                "Stir in the water, walnuts, cinnamon, and nutmeg.\n" +
+                "Arrange each squash wedge with a cut side down on top of the onion mixture, making sure that a cut side of each squash wedge touches the onion mixture. Cook, covered, on low for 4 hours or on high for 2 hours, or until the squash is tender when pierced with a fork.\n" +
+                "Place the squash wedges on plates. Stir the remaining ingredients into the onion mixture. Spoon over the squash.\n ");
 
     }
 
